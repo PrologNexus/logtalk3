@@ -22,6 +22,30 @@ RELEASE NOTES
 =============
 
 
+3.81.0 - July ??, 2024
+======================
+
+Tools
+-----
+
+* UPDATED: Documentation on developer tools requirements.
+
+Installers and installation scripts
+-----------------------------------
+
+* ADDED: Docker file for building an image with Logtalk and a subset of the
+supported Prolog backends.
+
+* FIXED: The SWI-Prolog based Docker image to also define the `INFOPATH`
+environment variable.
+
+IDEs, text editors, and syntax highlighters support
+---------------------------------------------------
+
+* FIXED: VSCode support to workaround SICStus Prolog and SWI-Prolog down-casing
+file paths on Windows and breaking handling of breakpoints.
+
+
 3.80.0 - June 4, 2024
 =====================
 
